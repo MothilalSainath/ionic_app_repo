@@ -1,0 +1,58 @@
+ion-item {
+  margin-bottom: 20px;
+}
+
+ion-row,
+ion-col {
+  padding: 0%;
+}
+
+.introduction {
+  height: 100%;
+  background: var(--ion-color-primary) url(../../assets/images/bgimg.jpg) center !important;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .shade {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.561);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    .app-name {
+      margin: 0%;
+      font-size: 80px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .subtitle {
+      font-size: 32px;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.56);
+    }
+  }
+}
+
+.selectors {
+  display: flex;
+  margin-top: 15px;
+  p {
+    font-size: 32px;
+    margin-right: 32px;
+  }
+
+  .activated {
+    text-decoration: underline !important;
+    color: var(--ion-color-primary) !important;
+    font-weight: 600;
+  }
+}
